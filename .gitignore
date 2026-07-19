@@ -1,0 +1,37 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.env.*.local
+
+# --- Backend (Java / Spring Boot / Maven) ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.iml
+backend/.idea/
+backend/HELP.md
+*.class
+*.jar
+!*/wrapper/maven-wrapper.jar
+
+# --- Frontend (Node / Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.turbo/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env*.local
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Antigravity / agent artifacts ---
+.agent/
+.gemini/
