@@ -1,4 +1,4 @@
-# AGENTS.md — Research Hub
+# AGENTS.md   Research Hub
 
 ## What this project is
 A single-author technology research publication platform. Full spec: `docs/specification.md`.
